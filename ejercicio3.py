@@ -9,7 +9,7 @@ else:
 #verificamos que los lados si sean de un triángulo, en caso de que si, lo clasificamos
     if(x+y>z and x+z>y and y+z>x):
         if(x==z and y==z):
-            print("Es un triángulo escaleno")
+            print("Es un triángulo equilátero")
         elif(x==z or x==z or y==z):
             print("Es un triángulo isóceles")
         else:
